@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  align-items: center;
+  height: auto;
+}
+
+.form-container {
+  background-color: white;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(118, 118, 196);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.table-scroll {
+  max-height: 180px;          /* Limit height of table area */
+  overflow-y: auto;           /* Scrollbar on vertical overflow */
+  overflow-x: auto;           /* Scrollbar on horizontal overflow */
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  min-width: 10px;
+  table-layout: auto;
+  overflow: scroll;
+  border: 1px solid black
+}
+th {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+  min-height: 30px;
+}
+td {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+  min-height: 30px;
+  background-color: white;
+}
+thead {
+  background-color: rgb(118, 118, 196);
+  color: white;
+  position:sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.button{
+    margin-top: 9px;
+    padding: 8px;
+    background-color: rgb(118, 118, 196);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+  background-color: rgb(118, 118, 196);
+  color: white;
+}
+.clear-btn {
+  padding: 10px 20px;
+  background-color: rgb(118, 118, 196);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
