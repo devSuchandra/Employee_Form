@@ -32,7 +32,6 @@ button {
   max-height: 180px;          /* Limit height of table area */
   overflow-y: auto;           /* Scrollbar on vertical overflow */
   overflow-x: auto;           /* Scrollbar on horizontal overflow */
-  border: 1px solid #ccc;
 }
 
 table {
@@ -40,7 +39,7 @@ table {
   min-width: 10px;
   table-layout: auto;
   overflow: scroll;
-  border: 1px solid black
+  border-collapse: collapse;
 }
 th {
   border: 1px solid black;
